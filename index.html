@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My First Homepage</title>
+    <link rel="stylesheet" href="Assets/style.css">
+</head>
+
+
+<body>
+    <div style="width:500px">
+        <fieldset>
+            <legend>Member Request Form</legend>
+            <div>
+                <form action="" method="post">
+
+                    <div>
+                        First Name: <input type="text" name="fName">
+                    </div>
+                    <div>
+                        Last Name: <input type="text" name="lName">
+                    </div>
+                    <div>
+                        Email Address: <input type="email" name="eMail">
+                    </div>
+                    <div>
+                        Gender <input type="radio" name="btnGender" value="Male">Male</input>
+                        <input type="radio" name="btnGender" value="Female">Female</input>
+                    </div>
+                    <div>
+                        Birthday: <input type="date" name="birthDate">
+                    </div>
+                    <div>
+                        Age: <input type="number" min="0" max="80">
+                    </div>
+                    <div>
+                        <input type="button" value="Compute Age" />
+                    </div>
+                    <div>
+                        Membership Type:
+                        <select name="memberType">
+                            <option value="1">Silver</option>
+                            <option value="2">Gold</option>
+                            <option value="3">Platinum</option>
+                        </select>
+                    </div>
+                    <div>
+                        Upload Photo: <input type="file">
+                    </div>
+                    <div>
+                        <input type="checkbox" name="terms"> I agree to the terms and conditions.</input>
+                    </div>
+
+                    <input type="submit" name="btnSubmit" value="Submit Form">
+                </form>
+            </div>
+        </fieldset>
+    </div>
+    
+
+</body>
+
+</html>
